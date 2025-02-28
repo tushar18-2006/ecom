@@ -1,0 +1,75 @@
+h1{
+    color:rgb(212, 37, 37);
+    background-color: rgb(109, 109, 221);
+         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h2{
+        color:rgb(97, 184, 184);
+        background-color:darksalmon;
+        text-align: right;
+
+        border: 2;
+        border-color:aqua;
+}
+label:hover{
+        color:rgb(65, 36, 36);
+        background-color:greenyellow
+}
+h8{
+        color: blue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+        flex-direction: inherit;
+        text-size-adjust:inherit;
+        height:100px;
+        width:120px;
+}
+*{
+                margin:0;
+                padding:0;
+}
+h3{
+        border-style:dotted;
+        margin: 12px;
+        padding: 10px;
+        color:aquamarine;
+        background-color: darkblue;
+}
+i1{
+                border: 5px solid blue;
+                border-color: blueviolet;
+                border-radius: 2px;
+                padding:10px 15px 20px;
+}
+.flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap:wrap;
+        gap: 10x;
+
+}
+.flex-container div{
+        background-color: rgb(255, 0, 0);
+        border-bottom: 2px;
+        margin: 50px;
+        padding: 20px;
+
+}
+@media(max-width:768px){
+        h1{
+        font-size: 1.2rem;
+}
+.flex-container{
+        flex-direction: row;
+}
+.grid-condainer{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+}
+}
+
+
+
